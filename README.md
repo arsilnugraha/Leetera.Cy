@@ -27,5 +27,4 @@ Leetera.Cy merupakan sebuah aplikasi berbasis mobile untuk para pembaca dalam me
 <p><img src="Leeteracy_UI/leeteracy15.png" width='700' /></p>
 <p><img src="Leeteracy_UI/leeteracy16.png" width='700' /></p>
 <p><img src="Leeteracy_UI/leeteracy17.jpg" width='700' /></p>
-<p><img src="Leeteracy_UI/leeteracy18.jpg" width='700' /></p>
 
