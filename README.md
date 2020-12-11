@@ -18,10 +18,14 @@ Leetera.Cy merupakan sebuah aplikasi berbasis mobile untuk para pembaca dalam me
   
 <h1>SCREENSHOOT</h1>
 </hr>
-<p><img src="Leeteracy_UI/Logo-LTRC.png" width='300' /></p>
-<p><img src="Leeteracy_UI/Signin-LTRC.png" width='300' /></p>
-<p><img src="Leeteracy_UI/Home-LTRC.png" width='300' /></p>
-<p><img src="Leeteracy_UI/Profile-LTRC.png" width='300' /></p>
-<p><img src="Leeteracy_UI/Author-LTRC.png" width='300' /></p>
-</p><img src="Leeteracy_UI/BookList-LTRC.png" width='300' /></p>
-<p><img src="Leeteracy_UI/Genre-LTRC.png" width='300' /></p>
+<p><img src="Leeteracy_UI/leeteracy1.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy10.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy11.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy12.png" width=500' /></p>
+<p><img src="Leeteracy_UI/leeteracy13.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy14.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy15.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy16.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy17.png" width='500' /></p>
+<p><img src="Leeteracy_UI/leeteracy18.png" width='500' /></p>
+
