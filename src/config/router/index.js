@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {OnBoard, SignIn} from '../../containers/pages';
+import {OnBoard, SignIn, SignUp} from '../../containers/pages';
 
 const Stack = createStackNavigator();
 
@@ -10,6 +10,7 @@ const OnBoardStack = () => {
     <Stack.Navigator headerMode="none" initialRouteName="OnBoard">
       <Stack.Screen name="OnBoard" component={OnBoard} />
       <Stack.Screen name="SignIn" component={SignIn} />
+      <Stack.Screen name="SignUp" component={SignUp} />
     </Stack.Navigator>
   );
 };

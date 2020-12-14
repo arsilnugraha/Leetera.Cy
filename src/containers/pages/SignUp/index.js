@@ -19,9 +19,9 @@ export default class SignIn extends Component {
             source={BackgroundHeaderAuth}
             style={styles.background}>
             <HeaderAuth
-               p1="Around The World"
-               p2="With Book"
-               p3="Create your Account"
+              p1="Around The World"
+              p2="With Book"
+              p3="Create your Account"
             />
           </ImageBackground>
 
@@ -33,7 +33,7 @@ export default class SignIn extends Component {
                 secureTextEntry={true}
                 style={styles.textInputArea}
               />
-              
+
               <Image
                 source={require('../../../assets/icon/Icon_view.png')}
                 style={{position: 'absolute', right: 10, bottom: 25}}
@@ -46,7 +46,7 @@ export default class SignIn extends Component {
                 secureTextEntry={true}
                 style={styles.textInputArea}
               />
-              
+
               <Image
                 source={require('../../../assets/icon/Icon_view.png')}
                 style={{position: 'absolute', right: 10, bottom: 25}}
@@ -57,10 +57,12 @@ export default class SignIn extends Component {
               <Text style={styles.textButton}>Sign Up</Text>
             </TouchableOpacity>
           </View>
-         
+
           <SocialMediaAuth
             text1="- Or Sign Up With -"
-            text2="Already Have Account? Sign In"
+            text2="Already Have Account? "
+            text3="Sign In"
+            onPress={() => this.props.navigation.replace('SignIn')}
           />
           <ImageBackground
             source={BackgroundFooterAuth}

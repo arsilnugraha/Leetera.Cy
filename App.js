@@ -1,10 +1,11 @@
 import React from 'react';
 import 'react-native-gesture-handler';
-import SignUp from './src/containers/pages/SignUp';
+import Router from './src/config/router';
+
 
 const App: () => React$Node = () => {
   return (
-    <SignUp />
+    <Router />
   );
 };
 export default App;

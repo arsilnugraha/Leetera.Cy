@@ -6,7 +6,7 @@ import BackgroundLogo from './../../../assets/logo/BackgrounLogo.png';
 export default class OnBoard extends Component {
   componentDidMount() {
     setTimeout(() => {
-      this.props.navigation.navigate('SignIn');
+      this.props.navigation.replace('SignIn');
     }, 2000);
   }
   render() {

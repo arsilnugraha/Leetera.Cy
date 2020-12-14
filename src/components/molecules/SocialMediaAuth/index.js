@@ -1,7 +1,8 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 
-const SocialMediaAuth = ({text1, text2}) => {
+const SocialMediaAuth = ({text1, text2, text3, onPress}) => {
   return (
     <View style={{paddingTop: 45}}>
       <Text
@@ -33,6 +34,7 @@ const SocialMediaAuth = ({text1, text2}) => {
           fontFamily: 'Poppins-Regular',
         }}>
         {text2}
+        <Text onPress={onPress} style={{color: '#047AF8'}}>{text3}</Text>
       </Text>
     </View>
   );

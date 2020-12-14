@@ -24,7 +24,6 @@ export default class SignIn extends Component {
               p3="Login to your account"
             />
           </ImageBackground>
-
           <View style={{paddingHorizontal: 20, paddingBottom: 30}}>
             <TextInput placeholder="Email" style={styles.textInputArea} />
             <View style={{position: 'relative'}}>
@@ -38,7 +37,6 @@ export default class SignIn extends Component {
                 style={{position: 'absolute', right: 10, bottom: 25}}
               />
             </View>
-
             <TouchableOpacity style={styles.button}>
               <Text style={styles.textButton}>Sign In</Text>
             </TouchableOpacity>
@@ -54,7 +52,9 @@ export default class SignIn extends Component {
           </Text>
           <SocialMediaAuth
             text1="- Or Sign in with -"
-            text2="Don't Have an Account ? Sign up"
+            text2="Don't Have an Account ? "
+            text3="Sign Up"
+            onPress={() => this.props.navigation.replace('SignUp')}
           />
           <ImageBackground
             source={BackgroundFooterAuth}

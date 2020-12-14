@@ -12,7 +12,7 @@ const HeaderAuth = ({p1, p2, p3}) => {
           alignItems: 'center',
           justifyContent: 'space-between',
         }}>
-        <View style={{width: 130, height: 52}}>
+        <View style={{width: 195, height: 52}}>
           <Text style={[styles.title, {color: '#7DC9E7'}]}>{p1}</Text>
           <Text style={[styles.title, {color: '#03A9F4'}]}>{p2}</Text>
         </View>
